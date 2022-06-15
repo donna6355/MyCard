@@ -11,6 +11,10 @@
 		709E42552859559100982857 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E42542859559100982857 /* ContentView.swift */; };
 		709E42572859559300982857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709E42562859559300982857 /* Assets.xcassets */; };
 		709E425A2859559300982857 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709E42592859559300982857 /* Preview Assets.xcassets */; };
+		709E42642859576700982857 /* NanumGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709E42612859576700982857 /* NanumGothic-Bold.ttf */; };
+		709E42652859576700982857 /* NanumGothic-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709E42622859576700982857 /* NanumGothic-ExtraBold.ttf */; };
+		709E42662859576700982857 /* NanumGothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 709E42632859576700982857 /* NanumGothic-Regular.ttf */; };
+		709E426828595E0100982857 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E426728595E0100982857 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		709E42542859559100982857 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		709E42562859559300982857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		709E42592859559300982857 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		709E42612859576700982857 /* NanumGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothic-Bold.ttf"; sourceTree = "<group>"; };
+		709E42622859576700982857 /* NanumGothic-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothic-ExtraBold.ttf"; sourceTree = "<group>"; };
+		709E42632859576700982857 /* NanumGothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothic-Regular.ttf"; sourceTree = "<group>"; };
+		709E426728595E0100982857 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		709E42512859559100982857 /* MyCard */ = {
 			isa = PBXGroup;
 			children = (
+				709E42602859572B00982857 /* fonts */,
 				709E42522859559100982857 /* MyCardApp.swift */,
 				709E42542859559100982857 /* ContentView.swift */,
+				709E426728595E0100982857 /* InfoView.swift */,
 				709E42562859559300982857 /* Assets.xcassets */,
 				709E42582859559300982857 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				709E42592859559300982857 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		709E42602859572B00982857 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				709E42612859576700982857 /* NanumGothic-Bold.ttf */,
+				709E42622859576700982857 /* NanumGothic-ExtraBold.ttf */,
+				709E42632859576700982857 /* NanumGothic-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709E42652859576700982857 /* NanumGothic-ExtraBold.ttf in Resources */,
+				709E42662859576700982857 /* NanumGothic-Regular.ttf in Resources */,
 				709E425A2859559300982857 /* Preview Assets.xcassets in Resources */,
 				709E42572859559300982857 /* Assets.xcassets in Resources */,
+				709E42642859576700982857 /* NanumGothic-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				709E42552859559100982857 /* ContentView.swift in Sources */,
+				709E426828595E0100982857 /* InfoView.swift in Sources */,
 				709E42532859559100982857 /* MyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
