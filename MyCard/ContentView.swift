@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    //struct is immutable add @State keyword to let struct rebuild it upon changes
+    @State var leftDiceNum: Int = 1
+    @State var rightDiceNum: Int = 1
+    
+    
     var body: some View {
         ZStack{
             Image("GreenBackground")
@@ -17,13 +22,14 @@ struct ContentView: View {
                 Image("DiceeLogo")
                 Spacer()
                 HStack {
-                    DiceView(n:1)
-                    DiceView(n:1)
+                    DiceView(n:leftDiceNum)
+                    DiceView(n:rightDiceNum)
                 }
                 .padding(.horizontal)
                 Spacer()
                 Button {
-                    
+                    self.leftDiceNum = Int.random(in: 1...6)
+                    self.rightDiceNum = Int.random(in: 1...6)
                 } label: {
                     Text("Roll")
                         .font(.system(size: 50))
