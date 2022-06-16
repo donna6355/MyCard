@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70394263285AB1D900C33A49 /* MyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70394262285AB1D900C33A49 /* MyCardView.swift */; };
 		709E42532859559100982857 /* MyCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E42522859559100982857 /* MyCardApp.swift */; };
 		709E42552859559100982857 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709E42542859559100982857 /* ContentView.swift */; };
 		709E42572859559300982857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709E42562859559300982857 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70394262285AB1D900C33A49 /* MyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardView.swift; sourceTree = "<group>"; };
 		709E424F2859559100982857 /* MyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		709E42522859559100982857 /* MyCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardApp.swift; sourceTree = "<group>"; };
 		709E42542859559100982857 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				709E42602859572B00982857 /* fonts */,
 				709E42522859559100982857 /* MyCardApp.swift */,
 				709E42542859559100982857 /* ContentView.swift */,
+				70394262285AB1D900C33A49 /* MyCardView.swift */,
 				709E426728595E0100982857 /* InfoView.swift */,
 				709E42562859559300982857 /* Assets.xcassets */,
 				709E42582859559300982857 /* Preview Content */,
@@ -162,6 +165,7 @@
 			files = (
 				709E42552859559100982857 /* ContentView.swift in Sources */,
 				709E426828595E0100982857 /* InfoView.swift in Sources */,
+				70394263285AB1D900C33A49 /* MyCardView.swift in Sources */,
 				709E42532859559100982857 /* MyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
